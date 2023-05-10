@@ -1,0 +1,17 @@
+{
+  "name": "cs-554-lab-1",
+  "version": "1.0.0",
+  "description": "Lab 1 for CS554",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Troy Tomasch 10446641",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.3.1"
+  }
+}

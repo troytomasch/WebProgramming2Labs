@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#appTitle {
+  font-size: 36px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.imageList {
+  list-style: none;
+}
+
+.singleImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  margin: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.author {
+  margin: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navLink {
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.addtoBinButton {
+  margin: 10px;
+  width: 250px;
+}
+.deleteButton {
+  width: 250px;
+}
+
+.images {
+  height: 400px;
+}
+
+#inputURL,
+#inputdesc,
+#inputname {
+  margin: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
